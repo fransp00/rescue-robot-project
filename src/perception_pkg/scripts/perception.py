@@ -254,6 +254,9 @@ def image_callback(msg):
     img_msg = bridge.cv2_to_imgmsg(frame, "bgr8")
     image_pub.publish(img_msg)
 
+    cv2.imshow("Perception", frame)
+    cv2.waitKey(1)
+
 # =====================================================
 # SUBSCRIBER
 # =====================================================

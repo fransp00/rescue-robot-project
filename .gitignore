@@ -14,3 +14,4 @@ rosaria/
 .catkin_workspace
 src/pioneer_p3dx_model/
 src/venv/
+src/beginner_tutorials/
